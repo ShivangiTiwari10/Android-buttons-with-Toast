@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DisplayToast</string>
-    <string name="dounload">Dounload</string>
+    <string name="dounload">Download</string>
+    <string name="upload">upload</string>
 </resources>
