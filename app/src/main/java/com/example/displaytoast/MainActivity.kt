@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this, "Downloading...", Toast.LENGTH_SHORT).show()
         }
+        binding.btnUpload.setOnClickListener {
+
+            Toast.makeText(this, "Uploading...", Toast.LENGTH_SHORT).show()
+        }
         setContentView(binding.root)
     }
 
