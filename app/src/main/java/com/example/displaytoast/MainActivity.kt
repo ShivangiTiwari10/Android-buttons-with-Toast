@@ -1,5 +1,6 @@
 package com.example.displaytoast
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -8,6 +9,8 @@ import com.example.displaytoast.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
+    @SuppressLint("ResourceAsColor", "UseCompatLoadingForDrawables")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,6 +23,16 @@ class MainActivity : AppCompatActivity() {
         binding.btnUpload.setOnClickListener {
 
             Toast.makeText(this, "Uploading...", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.btnLight.setOnClickListener {
+//            binding.btnLight.setBackgroundColor(resources.getColor(R.color.teal_700))
+//            binding.interactiveUi.setBackgroundColor(resources.getColor(R.color.purple_200))
+            binding.interactiveUi.setBackgroundResource(R.color.yellow)
+        }
+        binding.btnDark.setOnClickListener {
+
+            binding.interactiveUi.setBackgroundResource(R.color.Dark)
         }
         setContentView(binding.root)
     }

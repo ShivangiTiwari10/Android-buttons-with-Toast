@@ -52,7 +52,7 @@
         android:layout_gravity="bottom"
         android:fontFamily="serif"
         android:state_focused="true" android:state_pressed="true"
-        android:drawable="@drawable/ic_launcher"/>
+     />
 
 
 </LinearLayout>
