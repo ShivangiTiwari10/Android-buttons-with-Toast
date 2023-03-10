@@ -1,6 +1,7 @@
 package com.example.displaytoast
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -17,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         binding.btnDownload.setOnClickListener {
+            val intent = Intent(this, Layouts::class.java)
+            startActivity(intent)
 
             Toast.makeText(this, "Downloading...", Toast.LENGTH_SHORT).show()
         }
