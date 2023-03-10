@@ -1,8 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp"
     tools:context=".Layouts">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="@string/add"
+        tools:ignore="RelativeOverlap" />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="@string/post"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/delete"
+        tools:ignore="RelativeOverlap" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="385dp"
+        android:layout_height="194dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="25dp"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginBottom="379dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="monospace"
+        android:text="@string/i_am_prawtaar" />
+
+
+</RelativeLayout>

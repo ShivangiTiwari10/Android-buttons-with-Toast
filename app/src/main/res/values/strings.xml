@@ -4,4 +4,9 @@
     <string name="upload">upload</string>
     <string name="dark">Dark</string>
     <string name="light">Light</string>
+    <string name="post">Post</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="i_am_prawtaar">I Am Prawtaar</string>
+    <string name="todo">TODO</string>
 </resources>
