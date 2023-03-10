@@ -2,4 +2,6 @@
     <string name="app_name">DisplayToast</string>
     <string name="dounload">Download</string>
     <string name="upload">upload</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
 </resources>
