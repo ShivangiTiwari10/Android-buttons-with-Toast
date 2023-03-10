@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
-            android:text="@string/dounload"
+            android:text="@string/todo"
             android:textAllCaps="false" />
 
         <com.google.android.material.button.MaterialButton
